@@ -1,0 +1,25 @@
+import styles from './FeatureCard.module.css';
+
+interface FeatureCardProps {
+    icon: string;
+    title: string;
+    description: string;
+}
+
+function FeatureCard({icon,title,description}: FeatureCardProps){
+    return(
+        <div className={styles.card}>
+            <div className={styles.icon}>
+                {icon}
+            </div>
+            <h3>
+                {title}
+            </h3>
+            <p>
+                {description}
+            </p>
+        </div>
+    )
+}
+
+export default FeatureCard;
