@@ -19,7 +19,7 @@ function Hero ()
                     </button>
 
                     <button className={styles.secondaryButton}>
-                        Discord
+                        teste
                     </button>
                 </div>
             </div>                             
